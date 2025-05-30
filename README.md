@@ -1,17 +1,24 @@
-# Conexão Campo e Cidade
 
-Este projeto celebra a interdependência entre o campo e a cidade, destacando suas relações e influências mútuas.
+## Como Usar
 
-## Como visualizar o projeto
+1. Clone ou baixe este repositório
+2. Abra o arquivo `index.html` em qualquer navegador moderno
+3. Navegue pelo site para explorar o conteúdo
 
-1. Acesse o repositório no GitHub.
-2. Clique em "Settings" e ative o GitHub Pages na aba "Pages".
-3. Acesse a URL fornecida para visualizar o site.
+## Personalização
 
-## Dependências
+Para personalizar o site:
 
-Nenhuma.
+- Substitua as imagens na pasta `assets` mantendo os mesmos nomes
+- Modifique o conteúdo diretamente no `index.html`
+- Ajuste cores, fontes e estilos no `style.css`
+
+## Créditos
+
+- Fontes: Google Fonts (Montserrat e Playfair Display)
+- Ícones: Emoji nativos
+- Imagens: [Fonte de imagens gratuitas] (substitua por suas próprias imagens)
 
 ## Licença
 
-Este projeto é de domínio público.
+Este projeto é de uso livre. Sinta-se à vontade para utilizá-lo como base para seus próprios projetos.
