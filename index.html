@@ -1,41 +1,223 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Festejando a Conexão Campo-Cidade</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festejando a Conexão Campo-Cidade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav aria-label="Navegação principal">
-      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true" />
-      <label for="menu-toggle" class="menu-icon" aria-label="Abrir menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-      <ul class="nav-list" id="menu">
-        <li><a href="#sobre" class="nav-link">Sobre</a></li>
-        <li><a href="#evento" class="nav-link">O Evento</a></li>
-        <li><a href="#galeria" class="nav-link">Galeria</a></li>
-        <li><a href="#contato" class="nav-link">Contato</a></li>
-      </ul>
-      <div class="brand" aria-label="Nome do site">Festejando a Conexão</div>
+    <header class="hero">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="Logo Conexão Campo-Cidade">
+            </div>
+            <h1>Festejando a Conexão <span>Campo-Cidade</span></h1>
+            <p>Celebrando as relações de interdependência que nos alimentam e sustentam</p>
+            <a href="#sobre" class="btn">Conheça mais</a>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#importancia">Importância</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
     </nav>
-  </header>
-  <main>
-    <section id="sobre" class="section-intro">
-      <h1>Festejando a Conexão Campo-Cidade</h1>
-      <p class="intro-text">Uma celebração da união, tradição e inovação que unem o campo e a cidade numa festa cheia de alegria e cultura.</p>
+
+    <section id="sobre" class="section sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2>A <span>Conexão</span> que nos une</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="content-grid">
+                <div class="text-content">
+                    <p>O campo e a cidade são realidades interdependentes que se complementam. Enquanto o campo produz os alimentos que nutrem a população urbana, a cidade oferece tecnologia, serviços e mercados que impulsionam o desenvolvimento rural.</p>
+                    <p>Esta celebração visa fortalecer os laços entre esses dois mundos, reconhecendo a importância de cada um e promovendo uma relação mais justa e sustentável.</p>
+                </div>
+                <div class="image-content">
+                    <img src="assets/conexao.jpg" alt="Mãos trocando alimentos entre campo e cidade">
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="evento" class="section-evento">
-      <h2>O Evento</h2>
-      <article>
-        <h3>A união que gera cultura</h3>
-        <p>
-          Nosso evento celebra as raízes do campo e o pulsar da cidade, conectando pessoas, sabores e histórias. Uma experiência que destaca o melhor dos dois mundos numa festa vibrante e acolhedora.
-        </p>
-      </article>
-      <article>
-        <h3>Tradição & Modernidade</h3>
+
+    <section id="importancia" class="section importancia bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por que essa <span>conexão</span> importa?</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-icon">🌱</div>
+                    <h3>Segurança Alimentar</h3>
+                    <p>A produção rural abastece as cidades com alimentos frescos e nutritivos, essenciais para a saúde da população.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏙️</div>
+                    <h3>Desenvolvimento Econômico</h3>
+                    <p>As cidades oferecem mercados e serviços que valorizam a produção rural, gerando renda e oportunidades.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Sustentabilidade</h3>
+                    <p>Uma relação equilibrada promove práticas agrícolas sustentáveis e consumo consciente nas cidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="section galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossa <span>Galeria</span></h2>
+                <div class="divider"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/feira.jpg" alt="Feira de produtos rurais na cidade">
+                    <div class="overlay">
+                        <p>Feiras urbanas conectam produtores rurais diretamente aos consumidores</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/campo.jpg" alt="Agricultor colhendo alimentos">
+                    <div class="overlay">
+                        <p>O trabalho no campo alimenta as cidades</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/cidade.jpg" alt="Mercado na cidade com produtos do campo">
+                    <div class="overlay">
+                        <p>Os alimentos rurais chegam às mesas urbanas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="eventos" class="section eventos bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Eventos e <span>Celebrações</span></h2>
+                <div class="divider"></div>
+            </div>
+            <div class="eventos-grid">
+                <div class="evento-card">
+                    <div class="evento-data">
+                        <span class="dia">15</span>
+                        <span class="mes">Jun</span>
+                    </div>
+                    <div class="evento-info">
+                        <h3>Feira Agroecológica</h3>
+                        <p class="local">Praça Central - 9h às 16h</p>
+                        <p class="descricao">Produtores rurais trazem seus alimentos diretamente para os consumidores urbanos.</p>
+                    </div>
+                </div>
+                <div class="evento-card">
+                    <div class="evento-data">
+                        <span class="dia">22</span>
+                        <span class="mes">Jun</span>
+                    </div>
+                    <div class="evento-info">
+                        <h3>Roda de Conversa</h3>
+                        <p class="local">Centro Cultural - 19h</p>
+                        <p class="descricao">Agricultores e urbanistas discutem como melhorar a conexão campo-cidade.</p>
+                    </div>
+                </div>
+                <div class="evento-card">
+                    <div class="evento-data">
+                        <span class="dia">30</span>
+                        <span class="mes">Jun</span>
+                    </div>
+                    <div class="evento-info">
+                        <h3>Visita a Fazendas</h3>
+                        <p class="local">Saída do Centro - 8h</p>
+                        <p class="descricao">Passeio para moradores da cidade conhecerem como são produzidos seus alimentos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Fique <span>Conectado</span></h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <h3>Participe dessa celebração</h3>
+                    <p>Quer colaborar, sugerir atividades ou saber mais sobre nosso movimento?</p>
+                    <div class="info-item">
+                        <span>✉️</span>
+                        <p>contato@campocidade.org</p>
+                    </div>
+                    <div class="info-item">
+                        <span>📱</span>
+                        <p>(11) 98765-4321</p>
+                    </div>
+                    <div class="info-item">
+                        <span>📍</span>
+                        <p>Rua da Conexão, 123 - Centro</p>
+                    </div>
+                </div>
+                <form class="contato-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.svg" alt="Logo Conexão Campo-Cidade">
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#importancia">Importância</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#eventos">Eventos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Siga-nos</h4>
+                    <div class="social-icons">
+                        <a href="#">📱</a>
+                        <a href="#">📷</a>
+                        <a href="#">🔵</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Festejando a Conexão Campo-Cidade. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
